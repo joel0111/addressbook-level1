@@ -41,6 +41,7 @@ public class AddressBook {
      */
     private static final String DEFAULT_STORAGE_FILEPATH = "addressbook.txt";
 
+
     /**
      * Version info of the program.
      */
@@ -210,6 +211,7 @@ public class AddressBook {
         showWelcomeMessage();
         processProgramArgs(args);
         loadDataFromStorage();
+        System.out.println("This is a change.");
         while (true) {
             String userCommand = getUserInput();
             echoUserCommand(userCommand);
