@@ -83,6 +83,14 @@
   # should have deleted based on last active view's index
   list
 
+  # should add correctly
+  add Bill Low p/555555 e/billlow@nus.edu.sg
+  # should sort the address book according to alphabetical order (1st priority). If the names are the same, sort by contact numbers.
+  sort
+
+  # should display the list in the new sorted format.
+  list
+
   # deletes correct person
   delete 4
   list

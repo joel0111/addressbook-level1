@@ -184,8 +184,9 @@
 || 0 persons found!
 || ===================================================
 || Enter command: || [Command entered:  find betsy]
+|| 	1. Betsy Choo  Phone Number: 222222  Email: benchoo@nus.edu.sg
 || 
-|| 0 persons found!
+|| 1 persons found!
 || ===================================================
 || Enter command: || [Command entered:  find Betsy]
 || 	1. Betsy Choo  Phone Number: 222222  Email: benchoo@nus.edu.sg
@@ -249,24 +250,41 @@
 || 
 || 4 persons found!
 || ===================================================
-|| Enter command: || [Command entered:  delete 4]
-|| Deleted Person: Esther Potato  Phone Number: 555555  Email: esther@notreal.potato
+|| Enter command: || [Command entered: add Bill Low p/555555 e/billlow@nus.edu.sg]
+|| New person added: Bill Low, Phone: 555555, Email: billlow@nus.edu.sg
+|| ===================================================
+|| Enter command: || [Command entered:  sort]
+|| Address book has been sorted!
 || ===================================================
 || Enter command: || [Command entered:  list]
 || 	1. Adam Brown  Phone Number: 111111  Email: adam@gmail.com
 || 	2. Betsy Choo  Phone Number: 222222  Email: benchoo@nus.edu.sg
-|| 	3. Dickson Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
+||      3. Bill Low  Phone Number: 555555  Email: billlow@nus.edu.sg
+|| 	4. Dickson Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
+|| 	5. Esther Potato  Phone Number: 555555  Email: esther@notreal.potato
 || 
-|| 3 persons found!
+|| 5 persons found!
+|| ===================================================
+|| Enter command: || [Command entered:  delete 4]
+|| Deleted Person: Dickson Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
+|| ===================================================
+|| Enter command: || [Command entered:  list]
+|| 	1. Adam Brown  Phone Number: 111111  Email: adam@gmail.com
+|| 	2. Betsy Choo  Phone Number: 222222  Email: benchoo@nus.edu.sg
+||      3. Bill Low  Phone Number: 555555  Email: billlow@nus.edu.sg
+|| 	4. Esther Potato  Phone Number: 555555  Email: esther@notreal.potato
+|| 
+|| 4 persons found!
 || ===================================================
 || Enter command: || [Command entered:  delete 1]
 || Deleted Person: Adam Brown  Phone Number: 111111  Email: adam@gmail.com
 || ===================================================
 || Enter command: || [Command entered:  list]
 || 	1. Betsy Choo  Phone Number: 222222  Email: benchoo@nus.edu.sg
-|| 	2. Dickson Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
+||      2. Bill Low  Phone Number: 555555  Email: billlow@nus.edu.sg
+|| 	3. Esther Potato  Phone Number: 555555  Email: esther@notreal.potato
 || 
-|| 2 persons found!
+|| 3 persons found!
 || ===================================================
 || Enter command: || [Command entered:  clear]
 || Address book has been cleared!
